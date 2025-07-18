@@ -1,4 +1,6 @@
 # Sync Product From Amazon Plugin
+![amazon](https://github.com/user-attachments/assets/6fb40656-ea96-4edf-a495-56e4d8269dd3)
+
 
 If you want to display products from your Amazon store on WordPress posts or pages, this plugin is perfect for you. It fetches product details from Amazon and allows you to save them into posts or pages with ease.
 The plugin supports both shortcodes and Gutenberg blocks to display products on the frontend. All you need is the product’s ASIN number, which you can find on the Amazon product page.
