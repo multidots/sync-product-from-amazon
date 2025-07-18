@@ -1,4 +1,4 @@
-# Sync Product From Amazon Plugin
+# Sync Product From Amazon
 ![amazon](https://github.com/user-attachments/assets/6fb40656-ea96-4edf-a495-56e4d8269dd3)
 
 
