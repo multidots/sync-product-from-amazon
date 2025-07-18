@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "md/sync-product-from-amazon",
+	"version": "1.0.0",
+	"title": "Sync Product From Amazon",
+	"category": "sync-product-from-amazon",
+	"icon": "cart",
+	"description": "This block will be used to retrieve data from Amazon using an ASIN number. It can fetch various Amazon product details such as price, sale price, CTA link, etc.",
+	"keywords": ["amazon", "product", "price"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "sync-product-from-amazon",
+	"attributes": {
+		"productDetails": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./block.php"
+}

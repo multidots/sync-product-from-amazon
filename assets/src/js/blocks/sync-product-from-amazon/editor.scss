@@ -1,0 +1,133 @@
+@import '../../../sass/mixins/all';
+
+.wp-block-sync-product-from-amazon {
+	color: $link-theme-color;
+}
+
+.sync-product-from-amazon {
+	display: flex;
+	gap: 20px;
+	font-family: inherit;
+	margin: 20px 0;
+
+	@include media-breakpoint(max-767) {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&__left_wrapper {
+		@include media-breakpoint(min-768) {
+			flex: 0 0 30%;
+		}
+		.sync-product-from-amazon {
+			&__details_wrap {
+				margin-top: 10px;
+				.sync-product-from-amazon {
+					&__price_detail {
+						@include media-breakpoint(max-767) {
+							text-align: center;
+						}
+						.sync-product-from-amazon {
+							&__org_price {
+								span {
+									font-size: 12px;
+									line-height: 18px;
+									text-decoration: line-through;
+									color: #565959;
+								}
+								display: inline-block;
+							}
+							&__sale_price {
+								h4 {
+									font-weight: 500;
+								}
+								display: inline-block;
+							}
+						}
+					}
+				}
+				.sync-product-from-amazon {
+					&__button {
+						background-color: #ffd535;
+						text-align: center;
+						padding: 8px 20px;
+						border-radius: 50px;
+						display: block;
+						margin-top: 10px;
+						text-decoration: none;
+						&:hover {
+							.sync-product-from-amazon {
+								&__link {
+									color: $primary-theme-color;
+								}
+							}
+						}
+						.sync-product-from-amazon {
+							&__link {
+								color: $link-theme-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.sync-product-from-amazon {
+		&__content {
+			@include media-breakpoint(min-768) {
+				flex: 1;
+			}
+			.sync-product-from-amazon {
+				&__title {
+					margin: 20px 0;
+					font-family: inherit;
+				}
+			}
+		}
+		&__features {
+			.sync-product-from-amazon {
+				&__feature_item {
+					font-family: inherit;
+					color: $primary-theme-color;
+
+					&:not(:last-child) {
+						margin-bottom: 10px;
+					}
+				}
+				&__feature_item_show_more {
+					color: $link-theme-color;
+					text-decoration: none;
+					outline: none;
+					cursor: pointer;
+
+					&:hover {
+						color: $primary-theme-color;
+					}
+				}
+			}
+		}
+	}
+
+	&__error {
+		color: #d63638;
+	}
+
+	&__loader {
+		border: 16px solid #f3f3f3;
+		border-top: 16px solid #3498db;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		animation: spin 2s linear infinite;
+		margin: 0 auto;
+	}
+
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}

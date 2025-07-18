@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "spfa/amazon-product-custom-fields",
+  "version": "1.0.0",
+  "title": "Amazon Product Custom Fields",
+  "category": "sync-product-from-amazon",
+  "icon": "cart",
+  "description": "This plugin will be used to provide field options to update the metadata of the Amazon Products in post and pages.",
+  "keywords": [
+    "amazon",
+    "product",
+    "price"
+  ],
+  "textdomain": "sync-product-from-amazon",
+  "editorScript": "file:./index.js"
+}
