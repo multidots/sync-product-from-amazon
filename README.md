@@ -7,7 +7,7 @@ The plugin supports both shortcodes and Gutenberg blocks to display products on 
 Additionally, this plugin allows you to create individual posts or pages to showcase Amazon products. You can either add products manually or import multiple products in bulk using their ASIN numbers.
 
 ## Features
-* **Amazon Region & API Keys**: The plugin sends requests to Amazon’s Product Advertising API based on the target locale’s AWS region. You need to provide * **API Access Key, Secret Key, and Partner Tag from your Amazon Associates account.
+* **Amazon Region & API Keys**: The plugin sends requests to Amazon’s Product Advertising API based on the target locale’s AWS region. You need to provide API Access Key, Secret Key, and Partner Tag from your Amazon Associates account.
 * **Shortcode Support**: Use the [sync_product_from_amazon asin="asin_number"] shortcode to display Amazon product details in a post or page. To show multiple products, add ASIN numbers separated by commas.
 * **Gutenberg Block**: A dedicated Sync Product From Amazon block fetches and displays product details using the ASIN number within the Gutenberg editor.
 * **Caching**: Product data is cached for 24 hours to reduce API calls, and the cache clears automatically after this period. A manual cache clearing option is also available.
