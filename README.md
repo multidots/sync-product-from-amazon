@@ -14,9 +14,6 @@ Additionally, this plugin allows you to create individual posts or pages to show
 * **Bulk Import**: The plugin allows importing multiple Amazon products (up to 10 ASINs) into any post or page. You can specify post type and status during the import process.
 * **Manual Import**: You can manually add a product to a post or page using Amazon Product’s ASIN number. Simply enter the ASIN, and the plugin will fetch the product details for you. You can also specify the post type and post status during this process.
 
-## License
-This plugin is licensed under the GPLv2 or later license.
-
 ## Changelog
 1.0 
 * Initial release of the Amazon Products Display plugin.
@@ -25,12 +22,14 @@ This plugin is licensed under the GPLv2 or later license.
 1.0
 Initial release. No upgrades available yet.
 
-
 ## Credits
 Sync Product From Amazon is developed by Multidots. We appreciate the contributions from the open-source community.
 
 ## Support
 For support or questions, please [open an issue](https://github.com/multidots/sync-product-from-amazon/issues) or contact us via our website at [multidots.com](http://multidots.com/).
+
+## License
+This plugin is licensed under the GPLv2 or later license.
 
 
 ## Get In Touch
