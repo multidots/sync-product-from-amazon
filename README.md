@@ -18,10 +18,6 @@ Additionally, this plugin allows you to create individual posts or pages to show
 1.0 
 * Initial release of the Amazon Products Display plugin.
 
-## Upgrade Notice
-1.0
-Initial release. No upgrades available yet.
-
 ## Credits
 Sync Product From Amazon is developed by Multidots. We appreciate the contributions from the open-source community.
 
